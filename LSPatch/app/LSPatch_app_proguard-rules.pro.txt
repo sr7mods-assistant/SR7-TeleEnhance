@@ -1,0 +1,2 @@
+# ProGuard rules (minimal)
+-keep class com.sr7mods.lspatch.** { *; }
