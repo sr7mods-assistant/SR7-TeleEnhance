@@ -1,0 +1,3 @@
+// Minimal Gradle settings for the LSPatch module project
+rootProject.name = 'LSPatch'
+include ':app'

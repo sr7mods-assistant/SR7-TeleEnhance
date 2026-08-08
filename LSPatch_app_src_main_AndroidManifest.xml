@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sr7mods.lspatch">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="false"
+        android:label="SR7 LSPatch"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- For Xposed/LSPosed the entrypoint is the hook class; no activities are required for runtime hooks -->
+
+    </application>
+</manifest>
